@@ -1,14 +1,15 @@
 # cpsc-model
 # Authors
-- Carlos
-- Bruno
-- Oscar
+- Carlos P.
+- Bruno S.
+- Oscar J.
 
 # Description
-
+- Clone the repository
+- The model should be uploaded in the folder with name: `thisModel.h5` next to the file `manage.py`
 - Run `python manage.py runserver` to start server
 - Open `http://127.0.0.1:8000/`
-- The model should be uploaded in the folder with name: `thisModel.h5`
+- Upload any image to get the results
 
 # Preview
 
