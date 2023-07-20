@@ -12,7 +12,7 @@
 # Description
 - Clone the repository
 - (DEPRECATED) The model should be uploaded in the folder with name: `thisModel.h5` next to the file `manage.py`
-- The model in format tf should be uploaded in the folder (as a folder) with name: `model_tf` not the zip file next to the file `manage.py`
+- The model in format tf (as a folder, not the zip file) should be uploaded in the folder with name: `model_tf` next to the file `manage.py`
 - Run `python manage.py runserver` to start server
 - Open `http://127.0.0.1:8000/`
 - Upload any image to get the results
