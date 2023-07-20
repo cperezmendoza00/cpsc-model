@@ -79,9 +79,9 @@
 
       <form method="POST" enctype="multipart/form-data">
         {% csrf_token %}
-        <label class="uploadLabel" for="upload"
-          ><label class="selectedImage">Upload Image</label></label
-        >
+        <label class="uploadLabel selectedImage" for="upload">
+          Upload Image
+        </label>
         <input type="file" id="upload" name="upload" />
 
         <input type="submit" value="Submit" />

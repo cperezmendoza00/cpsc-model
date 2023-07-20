@@ -19,9 +19,11 @@ media='media'
 #model = load_model('mod-sigmoidfocalentropy false-ef5.h5')
 
 #model = load_model('thisModel.h5')
+#with keras.utils.custom_object_scope({'RectifiedAdam': tfa.optimizers.RectifiedAdam}):
+    #model = load_model('thisModel.h5')
 
 with keras.utils.custom_object_scope({'RectifiedAdam': tfa.optimizers.RectifiedAdam}):
-    model = load_model('thisModel.h5')
+    model = keras.models.load_model('model_tf')
 
 
 #with custom_object_scope({'FixedDropout': FixedDropout}):
