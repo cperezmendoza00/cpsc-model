@@ -6,6 +6,7 @@
 
 # Config
 - We created a conda environment called `tf_env` with Tensor flow libraries
+- Create `conda create tf_env`
 - Run `conda info --envs` to see the environments
 - `conda activate tf_env`
 
@@ -13,6 +14,7 @@
 - Clone the repository
 - (DEPRECATED) The model should be uploaded in the folder with name: `thisModel.h5` next to the file `manage.py`
 - The model in format tf (as a folder, not the zip file) should be uploaded in the folder with name: `model_tf` next to the file `manage.py`
+- Run `conda install requirements.txt`
 - Run `python manage.py runserver` to start server
 - Open `http://127.0.0.1:8000/`
 - Upload any image to get the results
