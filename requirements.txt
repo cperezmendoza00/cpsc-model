@@ -1,0 +1,5 @@
+Django==4.2.3
+tensorflow==2.13.0
+tensorflow-addons==0.21.0
+Pillow
+efficientnet
